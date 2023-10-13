@@ -1,0 +1,3 @@
+[submodule "build/Helloworld-latest"]
+	path = build/Helloworld-latest
+	url = https://github.com/vincloud2/Helloworld-latest.git
