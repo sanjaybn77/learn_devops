@@ -13,3 +13,42 @@ Absolutely, one of Maven's key functions is to download project dependencies, wh
 5) **Package the Source Code:** Maven packages the compiled source code and project resources into distributable formats, such as JAR (Java Archive) or WAR (Web Application Archive). The specific packaging format depends on the type of project (e.g., JAR for Java libraries, WAR for web applications).
 
 So, in summary, Maven is a versatile build tool that manages project dependencies, compiles source code, and packages the application into appropriate formats. It does not generate source code but handles various other aspects of the software development and build process
+
+
+=====================================================================================================================================================================================================
+
+**POM -->project object model**
+pom is a foundmental concept and a key components of Maven and it stores essential project information and configuration
+
+**1) Project information**
+**2)dependencei**
+**3)plugins**
+**4)Build configuration**
+**5)Repository**
+**6) Reports**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
