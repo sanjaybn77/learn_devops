@@ -3,12 +3,12 @@ yum install docker -y
 
 # to setup the docker 
 
-step 1) systemctl star docker
-step 2) systemctl enable docker
+1) systemctl start docker
+2) systemctl enable docker
 
 # to download the tools image to docker 
 
 docker pull [ image name ]
-example :- docker pull ubuntu
+eg : docker pull ubuntu
 
 
