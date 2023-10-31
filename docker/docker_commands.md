@@ -9,6 +9,11 @@ yum install docker -y
 # to download the tools image to docker 
 
 docker pull [ image name ]
-eg : docker pull ubuntu
+eg : 
+1) docker pull ubuntu
+2) docker pull jenkins/jenkins:lts
+
+# to check how many images are there
+docker images
 
 
