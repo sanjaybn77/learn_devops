@@ -14,6 +14,6 @@ eg :
 2) docker pull jenkins/jenkins:lts
 
 # to check how many images are there
-docker images
+1) docker images
 
 
