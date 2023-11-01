@@ -41,3 +41,10 @@
 # COMMENT
 --> this will comment the whole line 
 --> eg: # this line is the comment
+
+
+# some tips in docker file
+1) space
+   --> don't give unnecessary space between operators and operands
+   1) eg: ENV My_port = 8080 (wrong format)
+   2)  eg: ENV my_port=8080( right one) 
