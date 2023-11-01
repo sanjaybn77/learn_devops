@@ -16,8 +16,12 @@
      -->      or
   4) eg: ENV APP_PORT=8080 
 
-# working dir
+# working dir:
 --> you the can set the working directory for commands that fallow. this can help organize the file system within the directory
 
 1) syntax-> WORKDIR /app
 2) eg: WORKDIR /sanjay
+
+# Copy files:
+--> you can copy fiiles form the host system into the image
+1) syntax -> COPY file_name /path/to/paste
