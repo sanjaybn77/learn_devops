@@ -25,3 +25,19 @@
 # Copy files:
 --> you can copy fiiles form the host system into the image
 1) syntax -> COPY file_name /path/to/paste
+
+# 6) RUN Command:
+--> you use the RUN command to execute inside the container during the image build process
+1) syntax: RUN < commads >
+2) eg: RUN apt-get update && apt-get install python -y
+
+# 7) set USER 
+--> you can set the user 
+1) syntax: USER myuser
+
+# CLEAN 
+--> this command will clean up the temparary and cache files to minimize the unnecasary things
+  --> syntax: RUN apt-get CLEAN
+# COMMENT
+--> this will comment the whole line 
+--> eg: # this line is the comment
