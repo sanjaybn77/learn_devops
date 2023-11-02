@@ -69,8 +69,6 @@ Sample
 
 # /home/ec2-user/apache-tomcat-8.5.92/conf/tomcat-users.xml file
 
-
-
 <role rolename="manager-gui"/>
 <role rolename="manager-script"/>
 <role rolename="manager-jmx"/>
