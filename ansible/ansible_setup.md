@@ -43,11 +43,11 @@
 1) ansible all -i hosts_ip -m shell -a "df -h"
 2) here ansible --> it is an configuration tool
 3) all --> represents to check all ip
-4) -i -->
+4) -i --> it reperents inventory
 5) hosts_ip --> my inventory file name
 6) -m --> it indicates what type of module do you want
 7) shell --> module name
-8) -a -->
+8) -a --> arguments
 9) df -h --> to check disk space and -h --> human readable format
 
 # tips
