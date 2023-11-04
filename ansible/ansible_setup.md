@@ -22,10 +22,19 @@
    --> you don't need private key
    --> for eg: ssh ec2-user@private_ip
 
-
 # install ansible in amazon linux
 --> sudo su
 --> yum install ansible -y
 --> or sudo yum install ansible -y
+
+# creat inventory file in ansible 
+--> mkdir my_ansible
+--> cd my_ansible
+--> vim hosts_ip
+--> press i --> it means inseart mode
+
+-- in hosts_ip file you can make all ip's are one group or you can make a group for individual project
+--> eg: [all] --> for one group 
+--> eg: [project1] --> for project 1 group
 
     
