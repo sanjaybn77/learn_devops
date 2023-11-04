@@ -22,4 +22,10 @@
    --> you don't need private key
    --> for eg: ssh ec2-user@private_ip
 
+
+# install ansible in amazon linux
+--> sudo su
+--> yum install ansible -y
+--> or sudo yum install ansible -y
+
     
