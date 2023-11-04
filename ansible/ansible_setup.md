@@ -37,4 +37,22 @@
 --> eg: [all] --> for one group 
 --> eg: [project1] --> for project 1 group
 
+
+# to check the disk space for all machine in ansible single line script
+
+1) ansible all -i hosts_ip -m shell -a "df -h"
+2) here ansible --> it is an configuration tool
+3) all --> represents to check all ip
+4) -i -->
+5) hosts_ip --> my inventory file name
+6) -m --> it indicates what type of module do you want
+7) shell --> module name
+8) -a -->
+9) df -h --> to check disk space and -h --> human readable format
+
+# tips
+1) don't run the script or ymal file or inventory just run it is in ec2-user
+2) don't run it in sudo su user or root user
+
+
     
