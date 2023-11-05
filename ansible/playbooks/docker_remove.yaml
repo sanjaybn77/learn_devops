@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: to remove the docker in every machine
+      ansible.builtin.yum:
+        name: docker
+        state: absent
