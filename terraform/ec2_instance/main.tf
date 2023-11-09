@@ -1,11 +1,12 @@
 module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  name = "Terraform_main"
+  name ="jenkins_terraform"
 
-  instance_type          = "t2.micro"
-  ami			 ="ami-07b5c2e394fccab6e"
-  key_name               = "terraform_main"
-  monitoring             = true
-  vpc_security_group_ids = ["sg-0e0a9b6b7aaacc40a"]
+  instance_type          ="t2.micro"
+  ami			 ="ami-098940df4d3292e9a"
+  key_name               ="terraform_main"
+  monitoring             =true
+  vpc_security_group_ids =["sg-0bca143cd9c27a8d7"]
+  user_data =file("jenkins_install.sh")
 }
