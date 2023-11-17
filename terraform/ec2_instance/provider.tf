@@ -2,8 +2,6 @@ provider "aws"{
 access_key =""
 secret_key =""
 profile="default"
-<<<<<<< HEAD
-region="ap-northeast-1"
 }
 =======
 region="ap-southeast-2"
