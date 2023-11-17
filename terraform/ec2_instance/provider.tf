@@ -2,8 +2,8 @@ provider "aws"{
 access_key =""
 secret_key =""
 profile="default"
-}
+<<<<<<< HEAD
 =======
-region="ap-southeast-2"
+region="ap-northeast-1"
+>>>>>>> 6ad2c4e895e5dc0fcda2cf5799d7bdc0c2fce2df
 }
->>>>>>> b68f1262549e3e6e67b3056d9963bc86e4656acb
