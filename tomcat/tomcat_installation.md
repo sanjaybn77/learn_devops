@@ -1,5 +1,7 @@
 # Install Tomcat 
 - wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.96/bin/apache-tomcat-8.5.96.tar.gz
+- or 
+- wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.83/bin/apache-tomcat-9.0.83.tar.gz
 #or goto apache tomcat package location in browser copy the tar.gz link address
 #paste that link in your mobaxterm 
 
