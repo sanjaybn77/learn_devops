@@ -1,11 +1,13 @@
 # Install Tomcat 
-- wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.95/bin/apache-tomcat-8.5.95.tar.gz
+- wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.96/bin/apache-tomcat-8.5.96.tar.gz
+- or 
+- wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.83/bin/apache-tomcat-9.0.83.tar.gz
 #or goto apache tomcat package location in browser copy the tar.gz link address
 #paste that link in your mobaxterm 
 
 
 # to Untar
-- tar -zvxf apache-tomcat-8.5.92.tar.gz
+- tar -zvxf apache-tomcat-8.5.96.tar.gz
 
 
 # to install java 
@@ -92,5 +94,8 @@ ________________________________________________________________________________
 - ps -ef | grep tomcat
 
 # to check the permissions
-ls -l 
+ll 
+or 
+ls -l
+
 
